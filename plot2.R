@@ -21,7 +21,7 @@ plot2 <- function(plot_data) {
         total_blt_sql <- sqldf("SELECT year,sum(Emissions) as total from NEI where fips = \"24510\" group by year")
         
         #Opening PNG file
-        png(file="plot2.png",width=480,height=480)
+        png(file="plot2.png")
         
         ##Initialize plot
         with(total_blt_sql,plot(year,total,main="Total Emission per Year in Baltimore",

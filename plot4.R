@@ -6,7 +6,7 @@ library(ggplot2)
 
 
 # plot_data argument is function reference that can be loaded by 
-# source("plot_data.R")
+# source("plot_data.R") at https://github.com/sonofram/plots/blob/master/plot_data.R
 # Function Descption:  4.Across the United States, how have emissions 
 # from coal combustion-related sources changed from 1999-2008?
 
