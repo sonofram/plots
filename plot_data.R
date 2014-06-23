@@ -5,8 +5,8 @@ library(sqldf)
 library(ggplot2)
 
 #plot_data stored in plot_data.R
-# This function called for first time will loaded NEI and SCC data to 
-# memory for further use by plot1.R, plot2.R,plot3.R,plot4.R,plot5.R and
+# When function called for first time will loaded NEI and SCC dataset to 
+# memory for further use by plot1.R, plot2.R, plot3.R, plot4.R, plot5.R and
 # plot6.R
 
 plot_data <- function() {
